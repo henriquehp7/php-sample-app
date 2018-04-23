@@ -1,3 +1,11 @@
+## Criar uma imagem
+Trocando a tag para rc-versao para conseguir gerar uma imagem no dockerhub
+
+```sh
+$ docker build . -t front-php:*tag*
+```
+
+
 ## Criar container
 Para criar um container usa-se o comando run com o nome da imagem que será utilizada para a criação:
 
